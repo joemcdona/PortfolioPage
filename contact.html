@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="personal.css" type="text/css">
+    <title>Contact Form</title>
+</head>
+<body id="ContactBody">
+    <header id="ContactHeader" class="ContactBlock">
+        <h1 id="NameHeader">Joseph McDonald</h1>
+        <a href="index.html" target="_blank"><button type="button" class="homeButton">Home</button></a> <!-- Links to Home page-->
+        <a href="resume.html" target="_blank"><button type="button" class="homeButton">Resumé</button></a>
+    </header>
+    <div id="Computer">
+        <img id="ComputerImage" src="kevin-ku-w7ZyuGYNpRQ-unsplash.jpg">
+        <button id="JumpButton" type="button" onclick="focusForm()">To Form</button>
+        <cite id="formCite">Credit for image goes to Kevin Ku @ikukevk <a href="https://unsplash.com/photos/w7ZyuGYNpRQ" target="_blank">Original at unsplash.com</a></cite>
+    </div>
+    <div id="formBlock" class="ContactBlock" tabindex="-1">
+        <form id="Contact" class="ContactBlock" action="https://formspree.io/f/mjvzvdod" method="POST" onsubmit="validPost()" onsubmit="validEmail()">
+            <label for="nameField">Your Full Name</label>
+            <input id="nameField" name="Name" type="text" maxlength="64" title="Name" placeholder="Full Name" required oninput="formBlank(value, 1)"> 
+            <label for="emailField">Email Address</label>
+            <input id="emailField" name="Email" type="email" maxlength="64" title="Email address" placeholder="eg. Something@Something.ca" required onblur="validEmail()">        
+            <label for="addressField">Address</label>
+            <input id="addressField" name="Address" type="text" maxlength="320" title="Address" placeholder="Address" required oninput="formBlank(value, 2)">       
+            <label for="cityField">City</label>
+            <input id="cityField" name="City" type="text" maxlength="64" title="City" placeholder="City" required oninput="formBlank(value, 3)">     
+            <label for="postalField">Postal Code</label>
+            <input id="postalField" name="Postalcode" type="text" maxlength="7" title="Postal Code" placeholder="Postal Code" required onblur="validPost()">     
+            <label for="Hiring">Hiring<input type="radio" id="Hiring" name="Feedback" value="Hiring Selected" onclick="radioCheck()"></label>
+            <input id="salaryEntry" name="Salary" type="number" maxlength="15" title="Salary" placeholder="Starting Salary - Numbers only" disabled hidden required>      
+            <label for="Question">Question<input type="radio" id="Question" name="Feedback" value="Question Selected" onclick="radioCheck()"></label>
+            <textarea id="questionEntry" name="Question" rows="5" columns="20" placeholder="Have a Question?" disabled required></textarea>
+            <label for="Comment">Comment<input type="radio" id="Comment" name="Feedback" value="Comment Selected" onclick="radioCheck()"></label>
+            <textarea id="commentEntry" name="Comment" rows="5" columns="20" placeholder="Have a Comment?" disabled required></textarea>
+            <input id="contactSubmit" type="submit" title="Submit" > 
+        </form>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>

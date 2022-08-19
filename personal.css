@@ -1,0 +1,311 @@
+
+
+.Honest
+{
+    display: block;
+    justify-content: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HonestTop
+{
+    margin-top: 1.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    background-color: #da291c;
+    font-family: 'Open Sans', sans-serif;
+    font-size:3em;
+    color: white; 
+    text-align: center;
+}
+
+#HonestBody
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #e3e3e3;
+}
+
+#HonestBody p
+{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#HonestBody h2
+{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#homepage
+{
+    background-color: #163172;
+}
+
+#homeContent
+{
+    margin-top: 1.5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e56a0;
+    border-style: solid;
+    border-width: 1em;
+    border-color:#d6e4f0;
+    border-radius: 2em;
+}
+
+#Name
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size:3em;
+    text-decoration: underline;
+}
+
+#Job
+{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size:2em;
+}
+
+img
+{
+    border-style: solid;
+    border-width: 1em;
+    border-color:white;
+    border-radius: 2em;
+}
+
+.homeButton
+{
+    height: 2em;
+    width: 7em;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    background-color: #333232;
+    border-color:#212121;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.homeButton:hover
+{
+    background-color: #5f5e5e;
+}
+
+#ResumeHeader
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+#NameHeader
+{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    margin-right: 5em;
+}
+
+#Background
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#Computer
+{
+    width:90%;
+    display:block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#ComputerImage
+{
+    display:flex;
+    justify-content: center;
+    width: 60vw;
+    height: 85vh;
+    margin:auto;
+}
+
+#JumpButton
+{
+    position: absolute;
+    bottom: 60%;
+    left: 25%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    background-color:transparent;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 0.25em;
+}
+
+#JumpButton:hover
+{
+    background-color: #1632729c;
+}
+
+.Resume
+{
+    display: block;
+    padding: 1em;
+    justify-content: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#resumeBody
+{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+#AboutBlock, #EducationBlock
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+}
+
+#About
+{
+    color:black;
+    background-color: #d6e4f0;
+    width:60%; 
+}
+
+#About:hover, #Degree:hover
+{
+    background-color: #beccd8;
+}
+
+#BitAbout:hover, #General:hover
+{
+    background-color: #dff0ff;
+}
+
+#Degree
+{
+    color:black;
+    background-color: #d6e4f0;
+}
+
+#WEB222, #AboutBlock, #EducationBlock
+{
+    border-style: solid;
+    border-width: 1em;
+    border-color:#212121;
+    margin-top: 1em;
+}
+
+#WEB222:hover
+{
+    
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.ContactBlock
+{
+    display: block;
+    justify-content: center;
+}
+
+#ContactHeader
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+#formCite
+{
+    background-color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ContactBody
+{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    background-color: #1e56a0;
+}
+
+#formBlock
+{
+    display: flex;
+    justify-content: center; 
+}
+
+#Contact
+{
+    margin-top: 2em;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 2em;
+    border-style: solid;
+    border-width: 1em;
+    border-color: #163172;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input
+{
+    margin: 0.75em;
+}
+
+#contactSubmit
+{
+    align-self: center;
+    height: 3em;
+    width: 20em;
+    margin-top: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+
