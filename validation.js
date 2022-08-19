@@ -1,3 +1,8 @@
+/*
+    Student Name: Joseph McDonald
+    Student ID: 060257144 
+*/
+
 var hiring = document.getElementById("Hiring");
 var salary = document.getElementById("salaryEntry");
 var question = document.getElementById("Question");
